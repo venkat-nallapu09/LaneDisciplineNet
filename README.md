@@ -9,7 +9,7 @@ Urban traffic systems suffer from poor lane discipline, overspeeding, and ineffi
 
 ### Methodology
 ```
-1.Camera installation at pilot sites - [.]
+1.Camera installation at pilot sites - [🟩]
 
 2.Dataset creation and annotation - []
 
