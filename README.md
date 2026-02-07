@@ -21,6 +21,34 @@ Urban traffic systems suffer from poor lane discipline, overspeeding, and ineffi
 
 6.Deployment with traffic management systems - []
 ```
+
+### modular flow
+```
+Video Stream
+   ↓
+Frame Extractor
+   ↓
+┌───────────────┬─────────────────┐
+│ Vehicle Model │ Lane Model      │
+│ (YOLOv8)     │ (UFLD-v2)        │
+└───────┬───────┴────────┬────────┘
+        ↓                ↓
+   Multi-Object       Lane Geometry
+   Tracking           & Boundaries
+        ↓                ↓
+        └──────┬─────────┘
+               ↓
+      Lane Association Logic
+               ↓
+      Speed + Violation Engine
+               ↓
+        Events & Metrics
+               ↓
+        Dashboard / API
+```
+
+
+
 ### Project expected structure
 ```bash
 
