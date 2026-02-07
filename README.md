@@ -22,27 +22,6 @@ Urban traffic systems suffer from poor lane discipline, overspeeding, and ineffi
 6.Deployment with traffic management systems - []
 ```
 ### Project expected structure
-```
-LaneDisciplineNet/
-├── data/
-│   ├── raw/
-│   ├── annotations/
-│   └── processed/
-├── models/
-│   ├── lane_detection/
-│   ├── vehicle_detection/
-│   └── tracking/
-├── inference/
-├── dashboard/
-├── docs/
-│   └── architecture.md
-├── experiments/
-├── requirements.txt
-└── README.md
-
-```
-
-
 ```bash
 
 LaneDisciplineNet/
