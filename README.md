@@ -7,34 +7,19 @@ LaneDisciplineNet is an AI-powered computer vision system designed to monitor la
 ### Problem Statement
 Urban traffic systems suffer from poor lane discipline, overspeeding, and inefficient enforcement, especially under heterogeneous traffic conditions. Traditional monitoring systems lack real-time intelligence, scalability, and automated decision support.
 
-### Methodology
+### modular flow & Methodology
 ```
-1.Camera installation at pilot sites - [🟩]
-
-2.Dataset creation and annotation - []
-
-3.Model training and optimization - []
-
-4.Multi-module system integration - []
-
-5.Real-world testing and validation - []
-
-6.Deployment with traffic management systems - []
-```
-
-### modular flow
-```
-Video Stream
-   ↓
-Frame Extractor
-   ↓
-┌───────────────┬─────────────────┐
-│ Vehicle Model │ Lane Model      │
-│ (YOLOv8)     │ (UFLD-v2)        │
-└───────┬───────┴────────┬────────┘
-        ↓                ↓
-   Multi-Object       Lane Geometry
-   Tracking           & Boundaries
+Video Stream                                                      |   1.Camera installation at pilot sites - [🟩]
+   ↓                                                              |
+Frame Extractor                                                   |   2.Dataset creation and annotation - []
+   ↓                                                              |
+┌───────────────┬─────────────────┐                               |   3.Model training and optimization - []
+│ Vehicle Model │ Lane Model      │                               |                 
+│ (YOLOv8)     │ (UFLD-v2)        │                               |   4.Multi-module system integration - []
+└───────┬───────┴────────┬────────┘                               |
+        ↓                ↓                                        |   5.Real-world testing and validation - []
+   Multi-Object       Lane Geometry                               |
+   Tracking           & Boundaries                                |   6.Deployment with traffic management systems - []
         ↓                ↓
         └──────┬─────────┘
                ↓
