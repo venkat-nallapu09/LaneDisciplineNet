@@ -42,3 +42,66 @@ LaneDisciplineNet/
 
 ```
 
+
+```bash
+
+LaneDisciplineNet/
+│
+├── data/
+│   ├── raw_videos/
+│   ├── frames/
+│   ├── annotations/
+│   ├── calibration/
+│
+├── models/
+│   ├── vehicle_detection/
+│   │   ├── train.py
+│   │   ├── infer.py
+│   │   └── configs/
+│   ├── lane_detection/
+│   │   ├── train.py
+│   │   └── infer.py
+│
+├── tracking/
+│   ├── bytetrack.py
+│   └── kalman.py
+│
+├── perception/
+│   ├── detector.py
+│   ├── lane_estimator.py
+│   └── tracker.py
+│
+├── geometry/
+│   ├── homography.py
+│   └── camera_calibration.py
+│
+├── violations/
+│   ├── speed.py
+│   ├── lane_change.py
+│   └── rule_engine.py
+│
+├── pipeline/
+│   ├── video_pipeline.py
+│   └── realtime_pipeline.py
+│
+├── api/
+│   ├── app.py
+│   └── schemas.py
+│
+├── dashboard/
+│   └── streamlit_app.py
+│
+├── experiments/
+│   └── ablations/
+│
+├── configs/
+│   ├── model.yaml
+│   └── deploy.yaml
+│
+├── tests/
+│
+├── docker/
+│
+└── README.md
+
+```
