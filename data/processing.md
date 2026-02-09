@@ -34,3 +34,13 @@ This hugging face repo consists of un-annotated img frames extracted from raw vi
 ```  
 https://huggingface.co/datasets/nallapuvenkat/traffic-lane-data
 ```
+-----
+
+Now, we have to annotate them so that, we can train a model on our data. for this, I'm using _labelimg_.
+For installing labelimg, open CMD
+
+```
+pip install labelimg
+```
+
+& for opening just type label img
