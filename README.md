@@ -14,17 +14,17 @@ Urban traffic systems suffer from poor lane discipline, overspeeding, and ineffi
 ----
 ### modular flow & Methodology
 ```
-Video Stream                                                      |   1.Camera installation at pilot sites - [🟩]
+Video Stream                                                      |   
    ↓                                                              |
-Frame Extractor                                                   |   2.Dataset creation and annotation - []
+Frame Extractor                                                   |  
    ↓                                                              |
-┌───────────────┬─────────────────┐                               |   3.Model training and optimization - []
+┌───────────────┬─────────────────┐                               |   
 │ Vehicle Model │ Lane Model      │                               |                 
-│ (YOLOv8)     │ (UFLD-v2)        │                               |   4.Multi-module system integration - []
+│ (YOLOv8)     │ (UFLD-v2)        │                               |  
 └───────┬───────┴────────┬────────┘                               |
-        ↓                ↓                                        |   5.Real-world testing and validation - []
+        ↓                ↓                                        |  
    Multi-Object       Lane Geometry                               |
-   Tracking           & Boundaries                                |   6.Deployment with traffic management systems - []
+   Tracking           & Boundaries                                |  
         ↓                ↓
         └──────┬─────────┘
                ↓
