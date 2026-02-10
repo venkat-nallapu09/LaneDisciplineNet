@@ -7,6 +7,11 @@ LaneDisciplineNet is an AI-powered computer vision system designed to monitor la
 ### Problem Statement
 Urban traffic systems suffer from poor lane discipline, overspeeding, and inefficient enforcement, especially under heterogeneous traffic conditions. Traditional monitoring systems lack real-time intelligence, scalability, and automated decision support.
 
+----
+#### custom dataset preparation
+- refer [video link](https://youtu.be/hHN3gSO4dqs?si=qZKtF0_ubbqFO1Nn)
+
+----
 ### modular flow & Methodology
 ```
 Video Stream                                                      |   1.Camera installation at pilot sites - [🟩]
